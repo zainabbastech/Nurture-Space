@@ -12,15 +12,18 @@
 				<form id="contact-form" class="contact__form" method="post" action="index.html">
 					<h3 class="text-md mb-4">Contact Form</h3>
 					<div class="form-group">
-						<input name="name" type="text" class="form-control" placeholder="Your Name" required>
+						<input name="name" type="text" class="form-control" placeholder="Nurture Space" required readonly>
 					</div>
 					<div class="form-group">
-						<input name="email" type="email" class="form-control" placeholder="Email Address" required>
+						<input name="email" type="email" class="form-control" placeholder="Email Address" required readonly>
 					</div>
-					<div class="form-group-2 mb-4">
-						<textarea name="message" class="form-control" rows="4" placeholder="Your Message" required></textarea>
-					</div>
-					<button class="btn btn-main" name="submit" type="submit">Send Message</button>
+					<!-- <div class="form-group">
+						<input name="name" type="text" class="form-control" placeholder="" required readonly>
+					</div> -->
+					<a class="btn btn-main" href="https://api.whatsapp.com/send?phone=03444739968&text=Hello!%20I%20am%20interested%20in%20your%20services" target="_blank">
+						Send Message
+					</a>
+					
 				</form>
 			</div>
 
