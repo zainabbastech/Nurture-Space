@@ -175,3 +175,17 @@ gulp.task(
     "plugins:build"
   )
 );
+
+// Build and Serve Task
+gulp.task(
+  "build:serve",
+  gulp.series("build", function () {
+    bs.init({
+      server: {
+        baseDir: path.build.dirDev,
+      },
+    });
+    // Prevent the process from exiting immediately
+    return new Promise(() => {});
+  })
+);
