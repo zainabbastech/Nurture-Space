@@ -114,13 +114,6 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   color: #fff;
 }
 
-.btn-main:focus {
-  outline: none;
-  color:white
-}
-
-
-
 .btn-solid-border {
   border: 2px solid rgb(247, 87, 87);
   background: transparent;
